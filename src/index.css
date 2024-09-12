@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+}
+
+html{
+    background-color: rgb(219, 234, 254);
+}
+
+
+#root {
+    width: 100vw;
+    margin: 0 auto; /* Center the container horizontally */
+    /* border: 2px solid black; */
+    border-right: 2px solid gray;
+}
+
+/* Small screens and up (640px and up) */
+@media (min-width: 640px) {
+    #root {
+        max-width: 640px;
+    }
+}
+
+/* Medium screens and up (768px and up) */
+@media (min-width: 768px) {
+    #root {
+        max-width: 768px; 
+    }
+}
+
+/* Large screens and up (1024px and up) */
+@media (min-width: 1024px) {
+    #root {
+        max-width: 1024px; 
+    }
+}
+
+/* Extra-large screens and up (1280px and up) */
+@media (min-width: 1280px) {
+    #root {
+        max-width: 1280px; 
+    }
+}
+
+/* 2x Extra-large screens and up (1536px and up) */
+@media (min-width: 1536px) {
+    #root {
+        max-width: 1536px; 
+    }
+}
+
+
